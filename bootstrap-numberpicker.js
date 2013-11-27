@@ -88,7 +88,7 @@
 				val = this.min;
 			}
 			this.$element.val(val);
-			this.$element.trigger('changeNumber');
+			this.$element.trigger('change');
 			this.update();
 		},
 		numberSelect:function(e){
