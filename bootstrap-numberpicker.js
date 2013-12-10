@@ -7,6 +7,7 @@
 		this.max= options.max||59;
 		this.numberIncrease= options.numberIncrease||1;
 		this.maxCloumn= options.maxCloumn||1;
+		this.defaultValue= options.defaultValue||0;
 		this.init();
 	};
 	NumberPicker.prototype={
@@ -68,7 +69,7 @@
 			this.$widget.hide();
 		},
 		update:function(){
-			var val = parseInt(this.$element.val());
+			var val = parseInt(this.$element.val()) || this.defaultValue;
 			$td = this.$widget.find('td');
 			
 			$td.each(function(i,e){
@@ -131,6 +132,7 @@
 		min:0,
 		max:59,
 		numberIncrease:1,
-		maxCloumn:1
+		maxCloumn:1,
+		defaultValue: 0
 	};
 })(this)
