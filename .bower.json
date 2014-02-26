@@ -1,0 +1,14 @@
+{
+  "name": "bootstrap-numberpicker",
+  "homepage": "https://github.com/gbexciteholidays/bootstrap-numberpicker",
+  "_release": "948b4ef23e",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "948b4ef23e1031d251433c8dad9f08388d012998"
+  },
+  "_source": "https://github.com/gbexciteholidays/bootstrap-numberpicker.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/gbexciteholidays/bootstrap-numberpicker.git",
+  "_direct": true
+}
