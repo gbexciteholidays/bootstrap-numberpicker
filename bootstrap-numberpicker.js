@@ -45,8 +45,7 @@
 			this.$widget.appendTo('body');
 			this.$widget.find('td').on('click',$.proxy(this.numberSelect, this));
 			this.$widget.css({
-				'width': 'auto'
-				,
+				'width': 'auto',
 				'min-width':24*this.maxCloumn
 				})
 			this.$widget.on('mousewheel',function(e){
