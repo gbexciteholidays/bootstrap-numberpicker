@@ -7,7 +7,7 @@
 		this.max= options.max||59;
 		this.numberIncrease= options.numberIncrease||1;
 		this.maxCloumn= options.maxCloumn||1;
-		this.defaultValue= options.defaultValue||0;
+		this.defaultValue= options.min||0;
 		this.init();
 	};
 	NumberPicker.prototype={
@@ -132,7 +132,6 @@
 		min:0,
 		max:59,
 		numberIncrease:1,
-		maxCloumn:1,
-		defaultValue: 0
+		maxCloumn:1
 	};
 })(this)
